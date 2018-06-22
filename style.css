@@ -1,0 +1,49 @@
+* {
+  box-sizing:border-box
+}
+
+
+
+body {
+  font-family: 'Shrikhand', cursive;
+  margin:0;
+  padding:0;
+  background-color: hotpink;
+  font-size: 25px;
+}
+
+h1 {
+  color: yellow;
+  font-size: 40px;
+}
+
+article {
+  padding:2em;
+}
+
+#gallery {
+  background-image: url(https://cdn.glitch.com/7a11f154-b6ff-4fe6-961a-aa386d3edd4f%2Fdepositphotos_44013749-stock-illustration-abstract-pixel-background.jpg?1529634278252);
+  min-height:250px;
+  display:flex;
+  justify-content: center;
+  overflow-x: scroll;
+  padding:25px 25px;
+}
+
+#gallery img {
+  border: 25px gold groove;
+  margin: 40px 25px;
+  padding: 10px;
+  box-shadow: 0 4px 8px #888888;
+  background: white;
+  height: auto;
+  transform: rotate(1.5deg);
+}
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+
